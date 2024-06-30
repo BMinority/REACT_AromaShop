@@ -1,0 +1,47 @@
+.p-gamer-line {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.p-card-gamer {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.p-card-gamer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px var(--soft-color);
+}
+
+.p-gamer-info {
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.p-gamer-price {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    text-align: center;
+}
+
+.p-gamer-price p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--primary-color);
+}

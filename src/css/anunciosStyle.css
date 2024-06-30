@@ -1,0 +1,70 @@
+@import url('../css/base.css');
+
+.anuncio {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 600px;
+    position: relative;
+    overflow: hidden;
+    animation: slideIn 1s ease-in-out;
+}
+
+.anuncio-content {
+    position: relative;
+    z-index: 1;
+}
+
+.anuncio::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200%;
+    height: 200%;
+    background: var(--secondary-color);
+    transform: rotate(45deg);
+    opacity: 0.1;
+}
+
+.anuncio h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.anuncio p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.anuncio-button {
+    background-color: white;
+    color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.anuncio-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
