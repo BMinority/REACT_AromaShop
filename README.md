@@ -4,6 +4,8 @@ Este é um projeto de landing page desenvolvido para treinar habilidades fronten
 
 ## Visão Geral
 
+<img src="./src/assets/Aroma_Shop_logo/projeto_AShop.png" alt="AromaShop Logo" width="500"/>
+
 A AromaShop é uma landing page fictícia para uma perfumaria virtual. O projeto inclui diferentes seções como banners rotativos de produtos, menu responsivo, e cards de produtos organizados por linhas temáticas.
 
 ## Tecnologias Utilizadas
