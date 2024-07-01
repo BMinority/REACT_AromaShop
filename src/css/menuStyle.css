@@ -75,19 +75,21 @@
         background-color: var(--neutral-color);
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease-in-out;
-
-        transform: translateY($ {
-                menuOpen ? '0' : '-100%'
-            });
+        transform: translateY(-10%);
         z-index: 999;
+    }
+
+    .menu.menu-open ul {
+        display: block;
+        transform: translateY(0);
     }
 
     .menu ul li {
         margin-bottom: 1rem;
     }
+}
 
-    .menu-list.active {
-        display: flex;
-        flex-direction: column;
-    }
+.menu-list.active {
+    display: flex;
+    flex-direction: column;
 }
