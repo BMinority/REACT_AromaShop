@@ -1,3 +1,5 @@
+@import './base.css';
+
 .banner {
     position: relative;
     width: 100%;
@@ -21,11 +23,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--soft-color);
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     position: absolute;
     transition: opacity 1s ease-in-out;
     opacity: 0;
+}
+
+.slide p {
+    background-color: var(--secondary-color);
+
+    padding: 0.5rem;
+
+    border-radius: 15px;
 }
 
 .slide.active {
@@ -49,5 +59,5 @@
 
 .indicators .fa-circle.active,
 .indicators .fa-circle:hover {
-    color: white;
+    color: var(--neutral-color);
 }
