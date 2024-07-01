@@ -2,6 +2,11 @@
 
 Este é um projeto de landing page desenvolvido para treinar habilidades frontend utilizando React.js.
 
+## DEMO
+[AromaShop](https://aromashop.vercel.app/)
+
+##
+
 ## Visão Geral
 
 <img src="./src/assets/Aroma_Shop_logo/projeto_AShop.png" alt="AromaShop Logo" width="500"/>
