@@ -36,7 +36,7 @@ A AromaShop é uma landing page fictícia para uma perfumaria virtual. O projeto
 2. **Rode o projeto:**
 
     ``` bash
-    npm start
+    npm run dev
 
 
 ## Contribuição
